@@ -5,23 +5,27 @@ Goals of this project:
 2) Filter top selling tracks(as many tracks as requested).
 3) Filter top selling albums(as many albums as requested).
 
-To code along:
-  1) Set up your Replit.
-  2) create a python Repl.
-  3) Download the Chinook database from Git Hub and upload it on the Python Repl that you just created.
-  4) Connect the database to Python, and start coding. Check out(https://docs.python.org/3/library/sqlite3.html).
-     
-To see the nature of Chinook.db:
-  1) Create an SQLite Repl.
-  2) Upload Choonk.db.
-  3) Create an SQLite file and name it sch.sql.
-  4) Write ".table" and ".schema" in sch.sql.
-  5) Paste the following code on main.sql.
-.open Chinook.db
-.mode box
-.headers on 
-.read sch.sql
-  6) Hit the run button. 
-  
+Getting Started:
+To code along with this project, follow these steps:
+1. Set up your Replit environment since it's a convenient platform for working with databases using SQLite.
+2. Create a Python Repl within Replit.
+3. Download the Chinook database from GitHub and upload it to the Python Repl you just created.
+4. Connect the database to Python and start coding. You can refer to the [official SQLite3 documentation] (https://docs.python.org/3/library/sqlite3.html) for guidance.
 
-I will test my code on Replite.com and post all my up-to-date code on my Github repository (DBdataExtraction).
+Exploring Chinook.db:
+If you want to explore the nature of the Chinook.db database, follow these steps:
+1. Create an SQLite Repl.
+2. Upload the Chinook.db database.
+3. Create an SQLite file and name it "sch.sql."
+4. In "sch.sql," write the following commands:
+   .tables
+   .schema
+5. In your SQLite Repl, open the Chinook database and set the output mode to "box" with headers on. Run the commands from "sch.sql" by pasting the following code into "main.sql":
+   .open Chinook.db
+   .mode box
+   .headers on
+   .read sch.sql
+6. Hit the run button to execute the commands.
+
+Testing and Updates:
+I will be testing my code on (https://replit.com/) and regularly updating the code in my GitHub repository (DBdataExtraction). 
