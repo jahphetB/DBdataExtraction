@@ -22,17 +22,17 @@ If you want to explore the nature of the Chinook.db database, follow these steps
 2. Upload the Chinook.db database.
 3. Create an SQLite file and name it "sch.sql."
 4. In "sch.sql," write the following commands:
-----------------
-.tables /n
+
+.tables \n
 .schema
-----------------
+
 6. In your SQLite Repl, open the Chinook database and set the output mode to "box" with headers on. Run the commands from "sch.sql" by pasting the following code into "main.sql":
------------------
-.open Chinook.db /n
-.mode box /n
-.headers on /n
-.read sch.sql /n
------------------
+
+.open Chinook.db \n
+.mode box \n
+.headers on \n
+.read sch.sql \n
+
 7. Hit the run button to execute the commands.
 
 Testing and Updates:
