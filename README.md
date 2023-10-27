@@ -1,6 +1,6 @@
 # DBdataExtraction
 In this project, We will extract information from Chinook.db using Python and SQL, and present the information on graphs using Python graph modules. 
-Purposes of this project:
+Goals of this project:
 1) See artists' sales graph, sorted by revenue or country.
 2) Filter top selling tracks(as many tracks as requested).
 3) Filter top selling albums(as many albums as requested).
@@ -17,10 +17,10 @@ To see the nature of Chinook.db:
   3) Create an SQLite file and name it sch.sql.
   4) Write ".table" and ".schema" in sch.sql.
   5) Paste the following code on main.sql.
-     .open Chinook.db
-     .mode box
-     .headers on 
-     .read sch.sql
+.open Chinook.db
+.mode box
+.headers on 
+.read sch.sql
   6) Hit the run button. 
   
 
