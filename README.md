@@ -17,10 +17,10 @@ To see the nature of Chinook.db:
   3) Create an SQLite file and name it sch.sql.
   4) Write ".table" and ".schema" in sch.sql.
   5) Paste the following code on main.sql.
-     .open Chinook.db
-     .mode box
-     .headers on 
-     .read sch.sql
+.open Chinook.db
+.mode box
+.headers on 
+.read sch.sql
   6) Hit the run button. 
   
 
