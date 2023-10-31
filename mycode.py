@@ -18,7 +18,7 @@ def get_artist_data():
 
     def by_country():
         pass
-    
+
     def by_track():
         pass
 
@@ -53,6 +53,3 @@ def main():
     pass
 
 main()
-
-
-
