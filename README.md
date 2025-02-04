@@ -1,5 +1,5 @@
 # DBdataExtraction
-In this project, we aim to extract and visualize information from the Chinook.db database using Python and SQLite. I will present the extracted data through graphs created with Python graph modules. Our primary objective is to build a filter widget that can be integrated into websites, enabling users to extract important information from databases like Chinook.db. The features of our filter widget include:
+In this project, I aim to extract and visualize information from the Chinook.db database using Python and SQLite. I will present the extracted data through graphs created with Python graph modules. Our primary objective is to build a filter widget that can be integrated into websites, enabling users to extract important information from databases like Chinook.db. The features of our filter widget include:
 
 1) Artists' Sales Graph: Display a graph of artists' sales, which can be sorted by revenue or country.
 
